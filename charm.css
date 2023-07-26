@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Baloo Da 2', cursive;
+    background-image: url("bg.png");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+nav {
+    font-family: 'Baloo Da 2', cursive;
+    padding: 30px;
+    width: auto;
+    /* position: fixed; */
+}
+
+#text {
+    color: yellow;
+    text-shadow: 5px 5px 10px rgb(255, 0, 0);
+    font-size: 100px;
+}
+
+.question {
+    font-family: 'Baloo Da 2', cursive;
+    color: rgb(255, 255, 0);
+    /* text-shadow: 5px 5px 10px rgb(255, 0, 0); */
+    margin-left: 10px;
+    font-size: 25px;
+    display: inline;
+}
+
+.number {
+    text-align: center;
+    border-color: red;
+    height: 25px;
+    width: 40px;
+    color: yellow;
+    background-color: rgba(255, 0, 0, 0.341);
+    margin-left: 20px;
+    border: none;
+}
+
+button {
+    font-family: 'Baloo Da 2', cursive;
+    margin-left: 5px;
+    font-size: large;
+    color: yellow;
+    margin-top: 10px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+
+.UNCO {
+
+    display: flex;
+}
+
+.container_1 {
+    width: 65%;
+}
+
+.container_2 {
+    position: fixed;
+    top: 210px;
+    right: 40px;
+    width: 35%;
+    border-radius: 5px;
+    text-align: center;
+}
+
+nav .container #text {
+    text-align: center;
+    font-size: 50px;
+}
+
+.item_container .container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item_container .container .itembox {
+    font-family: 'Baloo Da 2', cursive;
+    background-color: rgba(186, 184, 211, 0.159);
+    color: rgb(255, 255, 0);
+    text-shadow: 5px 5px 10px rgb(255, 68, 0);
+    font-size: 25px;
+    text-align: center;
+    width: 150px;
+    margin: 10px;
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 10px 1px rgb(0, 0, 0);
+}
+
+.itembox .code {
+    display: flex;
+    align-items: center;
+    min-width: 120px;
+    justify-content: center;
+}
+
+.plus {
+    padding: 5px 12px;
+    cursor: pointer;
+    user-select: none;
+    border-radius: 50%;
+}
+
+.minus {
+    padding: 5px 16px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.itembox .price {
+    /* margin-top: px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.itembox .quantity {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    /* margin-top: 10px; */
+}
+
+/* type 2 */
+
+.tit {
+    color: yellow;
+
+}
+
+.dis_1 {
+    color: yellow;
+}
+
+.result_1 {
+    text-shadow: 10px 5px 10px black;
+    font-size: larger;
+    color: yellow;
+}
+
+.but_2{
+    border-radius: 5px;
+    background-color: rgba(255, 0, 13, 0.561);
+    margin-bottom: 30px;
+}
+
+.ty_img{
+    margin-left: 200px;
+    width: 900px;
+}
